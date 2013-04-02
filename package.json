@@ -1,0 +1,25 @@
+{
+  "name": "markdown-stream",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "node-markdown": "~0.1.1",
+    "underscore": "~1.4.4",
+    "markdown-extra": "~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest",
+    "sinon": "~1.6.0"
+  },
+  "description": "markdown stream",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -R nyan"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": "",
+  "author": "torbjorn.josefsson@gmail.com",
+  "license": "MIT"
+}
